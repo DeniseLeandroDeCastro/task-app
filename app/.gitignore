@@ -1,1 +1,16 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
 /build
+/*/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Firebase e Segredos
+google-services.json
+*.jks
+*.keystore

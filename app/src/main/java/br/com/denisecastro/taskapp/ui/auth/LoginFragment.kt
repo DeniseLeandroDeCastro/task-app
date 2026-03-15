@@ -6,12 +6,30 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import br.com.denisecastro.taskapp.R
+import br.com.denisecastro.taskapp.databinding.FragmentLoginBinding
+import br.com.denisecastro.taskapp.databinding.FragmentSplashBinding
+
 class LoginFragment : Fragment() {
 
+    private var _binding: FragmentLoginBinding? = null
+    private val binding get() = _binding!!
+
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
-        return inflater.inflate(R.layout.fragment_login, container, false)
+    ): View {
+        _binding = FragmentLoginBinding.inflate(inflater, container, false)
+        val view = binding.root
+        return view
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
     }
 }

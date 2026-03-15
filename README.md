@@ -16,8 +16,17 @@
 
 ### Splash
 
+<img width="288" height="579" alt="Image" src="https://github.com/user-attachments/assets/61bcff96-7424-4f26-85a2-e1a43728f7f3" />
 
+### Login
 
+<img width="295" height="597" alt="Image" src="https://github.com/user-attachments/assets/9647d0aa-8274-4fe5-9506-73d347d85697" />
 
+### Register
 
+<img width="288" height="579" alt="Image" src="https://github.com/user-attachments/assets/9d49b7ff-d108-4f0f-b23b-0290262af06b" />
+
+### RecoverAccount
+
+<img width="288" height="579" alt="Image" src="https://github.com/user-attachments/assets/9a2fd76e-f5b2-4525-a29d-13f0ec27c9c0" />
 
